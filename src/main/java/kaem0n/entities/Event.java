@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @Table(name = "events")
 public class Event {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "event_id")
     private long id;
     private String title;
@@ -18,16 +18,19 @@ public class Event {
     private EventType type;
     @Column(name = "max_participant_capacity")
     private int maxParticipantCapacity;
+    @ManyToOne
+    @JoinColumn(name = "location_id")
+    private Location location;
 
-    public Event() {
-    }
+    public Event(){}
 
-    public Event(String title, LocalDate date, String description, EventType type, int maxParticipantCapacity) {
+    public Event(String title, LocalDate date, String description, EventType type, int maxParticipantCapacity, Location location) {
         this.title = title;
         this.date = date;
         this.description = description;
         this.type = type;
         this.maxParticipantCapacity = maxParticipantCapacity;
+        this.location = location;
     }
 
     public long getId() {
@@ -73,6 +76,9 @@ public class Event {
     public void setMaxParticipantCapacity(int maxParticipantCapacity) {
         this.maxParticipantCapacity = maxParticipantCapacity;
     }
+    public Location getLocation() {
+        return location;
+    }
 
     @Override
     public String toString() {
@@ -83,6 +89,7 @@ public class Event {
                 ", description='" + description + '\'' +
                 ", type=" + type +
                 ", maxParticipantCapacity=" + maxParticipantCapacity +
+                ", location=" + location +
                 '}';
     }
 }
