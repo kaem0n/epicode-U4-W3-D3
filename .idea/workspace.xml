@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="018782d9-b8ba-425f-ab3a-07f4d25f1588" name="Changes" comment="project start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/dao/LocationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/dao/ParticipationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/entities/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/entities/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/entities/Participation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/entities/ParticipationState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kaem0n/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kaem0n/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kaem0n/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kaem0n/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kaem0n/entities/Event.java" afterDir="false" />
-    </list>
+    <list default="true" id="018782d9-b8ba-425f-ab3a-07f4d25f1588" name="Changes" comment="added ER diagram" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +39,12 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/anton/Desktop/EPICODE/Back End/Unità 1/Week 3/Day 3/src/main/java/kaem0n"
+    "last_opened_file_path": "C:/Users/anton/Desktop/EPICODE/Back End/Unità 1/Week 3/Day 3"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Desktop\EPICODE\Back End\Unità 1\Week 3\Day 3" />
       <recent name="C:\Users\anton\Desktop\EPICODE\Back End\Unità 1\Week 3\Day 3\src\main\java\kaem0n" />
     </key>
   </component>
@@ -83,11 +72,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710941704752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project finished">
+      <option name="closed" value="true" />
+      <created>1710947592986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710947592986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added ER diagram">
+      <option name="closed" value="true" />
+      <created>1710947692368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710947692368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project start" />
-    <option name="LAST_COMMIT_MESSAGE" value="project start" />
+    <MESSAGE value="project finished" />
+    <MESSAGE value="added ER diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ER diagram" />
   </component>
 </project>

@@ -26,6 +26,7 @@ public class EventHandler {
 //        Location arenaDiVerona = ld.getById(2);
 
 //        ed.save(new Event("Metallica concert", LocalDate.now(), "World tour 2024", EventType.PUBLIC, 20000, arenaDiVerona));
+//        ed.save(new Event("Festivalbar", LocalDate.now(), "Estate 2024", EventType.PUBLIC, 20000, arenaDiVerona));
 //        ed.save(new Event("Festival di Sanremo", LocalDate.parse("2024-02-10"), "Edizione 2024 del Festival di Sanremo", EventType.PRIVATE, 1800, ariston));
 //        ed.delete(1);
 //        ed.delete(2);
@@ -45,6 +46,9 @@ public class EventHandler {
 //        Participation p3 = pd2.getById(3);
 
 //        System.out.println(p2.getPerson());
+
+//        Event festivalbar = ed.getById(5);
+//        System.out.println(festivalbar);
 
         em.close();
         emf.close();
